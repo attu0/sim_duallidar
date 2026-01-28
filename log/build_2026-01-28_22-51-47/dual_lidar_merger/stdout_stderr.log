@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing dual_lidar_merger.egg-info/PKG-INFO
+writing dependency_links to dual_lidar_merger.egg-info/dependency_links.txt
+writing entry points to dual_lidar_merger.egg-info/entry_points.txt
+writing requirements to dual_lidar_merger.egg-info/requires.txt
+writing top-level names to dual_lidar_merger.egg-info/top_level.txt
+reading manifest file 'dual_lidar_merger.egg-info/SOURCES.txt'
+writing manifest file 'dual_lidar_merger.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages/dual-lidar-merger.egg-link (link to .)
+Installing laser_merger script to /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/dual_lidar_merger
+
+Installed /home/atharv/sim_duallidar/build/dual_lidar_merger
+running symlink_data

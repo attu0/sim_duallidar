@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/atharv/sim_duallidar/build/articubot_one': /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.320s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.321s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.321s]   has asked CMake to find a package configuration file provided by
+[0.321s]   "ament_cmake", but CMake did not find one.
+[0.321s] 
+[0.321s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.321s]   any of the following names:
+[0.321s] 
+[0.321s]     ament_cmakeConfig.cmake
+[0.321s]     ament_cmake-config.cmake
+[0.321s] 
+[0.321s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.321s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.321s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.321s]   has been installed.
+[0.321s] 
+[0.321s] [0m
+[0.321s] -- Configuring incomplete, errors occurred!
+[0.321s] See also "/home/atharv/sim_duallidar/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[0.323s] Invoked command in '/home/atharv/sim_duallidar/build/articubot_one' returned '1': /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one

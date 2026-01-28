@@ -1,0 +1,65 @@
+[0.007s] Invoking command in '/home/atharv/sim_duallidar/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.198s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.248s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.249s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.250s] -- Added test 'lint_cmake' to check CMake code style
+[0.250s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.251s] -- Added test 'xmllint' to check XML markup files
+[0.252s] -- Configuring done
+[0.253s] -- Generating done
+[0.254s] -- Build files have been written to: /home/atharv/sim_duallidar/build/articubot_one
+[0.256s] Invoked command in '/home/atharv/sim_duallidar/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one
+[0.258s] Invoking command in '/home/atharv/sim_duallidar/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atharv/sim_duallidar/build/articubot_one -- -j16 -l16
+[0.286s] Invoked command in '/home/atharv/sim_duallidar/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/atharv/sim_duallidar/build/articubot_one -- -j16 -l16
+[0.293s] Invoking command in '/home/atharv/sim_duallidar/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atharv/sim_duallidar/build/articubot_one
+[0.299s] -- Install configuration: ""
+[0.300s] -- Execute custom install script
+[0.300s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/dual_lidar.rviz
+[0.305s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.312s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/gazebo.rviz
+[0.319s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[0.325s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/main.rviz
+[0.332s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.337s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.343s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/config/slamandnav2.rviz
+[0.350s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.356s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.363s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.369s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.373s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.379s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.384s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.390s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[0.395s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/all.launch.py
+[0.400s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[0.406s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/camera.md
+[0.413s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/dual_lidar_complete.launch.py
+[0.418s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/dual_lidar_merger.launch.py
+[0.422s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.429s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/ros2_control.md
+[0.434s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.439s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rplidar.md
+[0.445s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.450s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.455s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/map.world
+[0.461s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.466s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/world.world
+[0.470s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.477s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.482s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.486s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.493s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/environment/path.sh
+[0.498s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.503s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/local_setup.bash
+[0.510s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/local_setup.sh
+[0.514s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.519s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.526s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/package.dsv
+[0.533s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.541s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.547s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.552s] -- Symlinking: /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/package.xml
+[0.558s] Invoked command in '/home/atharv/sim_duallidar/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/atharv/sim_duallidar/build/articubot_one
