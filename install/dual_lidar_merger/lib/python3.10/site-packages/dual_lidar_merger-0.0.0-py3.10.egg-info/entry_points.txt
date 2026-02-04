@@ -1,0 +1,3 @@
+[console_scripts]
+laser_merger = dual_lidar_merger.laser_merger_node:main
+

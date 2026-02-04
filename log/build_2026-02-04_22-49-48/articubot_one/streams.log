@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/atharv/sim_duallidar/build/articubot_one': /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one
+[0.041s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] Traceback (most recent call last):
+[0.136s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.136s]     from ament_package.templates import get_environment_hook_template_path
+[0.136s] ModuleNotFoundError: No module named 'ament_package'
+[0.143s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.143s]   execute_process(/usr/bin/python3
+[0.143s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.143s]   /home/atharv/sim_duallidar/build/articubot_one/ament_cmake_package_templates/templates.cmake)
+[0.143s]   returned error code 1
+[0.143s] Call Stack (most recent call first):
+[0.143s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.143s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.143s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.143s]   CMakeLists.txt:19 (find_package)
+[0.144s] 
+[0.144s] [0m
+[0.144s] -- Configuring incomplete, errors occurred!
+[0.144s] See also "/home/atharv/sim_duallidar/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[0.146s] Invoked command in '/home/atharv/sim_duallidar/build/articubot_one' returned '1': /usr/bin/cmake /home/atharv/sim_duallidar/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/articubot_one
