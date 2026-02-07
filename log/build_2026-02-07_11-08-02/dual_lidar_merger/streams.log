@@ -1,0 +1,21 @@
+[0.388s] Invoking command in '/home/atharv/sim_duallidar/src/dual_lidar_merger': PYTHONPATH=/home/atharv/sim_duallidar/build/dual_lidar_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_lidar_merger build --build-base /home/atharv/sim_duallidar/build/dual_lidar_merger/build install --record /home/atharv/sim_duallidar/build/dual_lidar_merger/install.log --single-version-externally-managed install_data
+[0.512s] running egg_info
+[0.513s] writing ../../build/dual_lidar_merger/dual_lidar_merger.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/dual_lidar_merger/dual_lidar_merger.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/dual_lidar_merger/dual_lidar_merger.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/dual_lidar_merger/dual_lidar_merger.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/dual_lidar_merger/dual_lidar_merger.egg-info/top_level.txt
+[0.516s] reading manifest file '../../build/dual_lidar_merger/dual_lidar_merger.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../build/dual_lidar_merger/dual_lidar_merger.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.518s] running install
+[0.518s] running install_lib
+[0.519s] running install_data
+[0.520s] running install_egg_info
+[0.521s] removing '/home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages/dual_lidar_merger-0.0.0-py3.10.egg-info' (and everything under it)
+[0.521s] Copying ../../build/dual_lidar_merger/dual_lidar_merger.egg-info to /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages/dual_lidar_merger-0.0.0-py3.10.egg-info
+[0.522s] running install_scripts
+[0.534s] Installing laser_merger script to /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/dual_lidar_merger
+[0.534s] writing list of installed files to '/home/atharv/sim_duallidar/build/dual_lidar_merger/install.log'
+[0.547s] Invoked command in '/home/atharv/sim_duallidar/src/dual_lidar_merger' returned '0': PYTHONPATH=/home/atharv/sim_duallidar/build/dual_lidar_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_lidar_merger build --build-base /home/atharv/sim_duallidar/build/dual_lidar_merger/build install --record /home/atharv/sim_duallidar/build/dual_lidar_merger/install.log --single-version-externally-managed install_data

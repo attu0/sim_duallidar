@@ -4,3 +4,6 @@ source;share/dual_lidar_merger/hook/pythonpath.sh
 source;share/dual_lidar_merger/hook/ament_prefix_path.ps1
 source;share/dual_lidar_merger/hook/ament_prefix_path.dsv
 source;share/dual_lidar_merger/hook/ament_prefix_path.sh
+source;../../build/dual_lidar_merger/share/dual_lidar_merger/hook/pythonpath_develop.ps1
+source;../../build/dual_lidar_merger/share/dual_lidar_merger/hook/pythonpath_develop.dsv
+source;../../build/dual_lidar_merger/share/dual_lidar_merger/hook/pythonpath_develop.sh

@@ -1,0 +1,2 @@
+Invoking command in '/home/atharv/sim_duallidar/build/ira_laser_tools': /usr/bin/cmake /home/atharv/sim_duallidar/src/ira_laser_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/ira_laser_tools
+Invoked command in '/home/atharv/sim_duallidar/build/ira_laser_tools' returned '1': /usr/bin/cmake /home/atharv/sim_duallidar/src/ira_laser_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atharv/sim_duallidar/install/ira_laser_tools
