@@ -34,19 +34,24 @@ source install/setup.bash
 
 ### Launch Everything (Gazebo + Merger + RViz)
 ```bash
-ros2 launch articubot_one all.launch.py
+ros2 launch dual_lidar_complete.launch.py
 ```
 
 ### Launch Components Separately
 
 **Gazebo only:**
 ```bash
-ros2 launch articubot_one launch_sim.launch.py
+ros2 launch articubot_one launch_sim.launch.py world:=src/articubot_one/worlds/world.world 
 ```
 
 **Laser merger:**
 ```bash
 ros2 launch articubot_one dual_lidar_merger.launch.py
+```
+
+**static_tf**
+```bash
+ros2 run tf2_ros static_transform_publisher 0 0 0.175 0 0 0 base_link laser_merged
 ```
 
 ### Control the Robot

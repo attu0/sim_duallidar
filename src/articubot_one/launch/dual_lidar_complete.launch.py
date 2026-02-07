@@ -1,51 +1,70 @@
-import os
-from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
+from launch.substitutions import PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
+
 
 def generate_launch_description():
-    
-    package_name = 'articubot_one'
-    
-    # Path to RViz config
-    rviz_config_file = os.path.join(
-        get_package_share_directory(package_name),
-        'config',
-        'dual_lidar.rviz'
+
+    pkg_articubot = FindPackageShare("articubot_one")
+
+    # -------- Gazebo Sim --------
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            PathJoinSubstitution([
+                pkg_articubot,
+                "launch",
+                "launch_sim.launch.py"
+            ])
+        ),
+        launch_arguments={
+            "world": PathJoinSubstitution([
+                pkg_articubot,
+                "worlds",
+                "world.world"
+            ])
+        }.items()
     )
-    
-    # Include Gazebo simulation launch
-    gazebo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            os.path.join(
-                get_package_share_directory(package_name),
-                'launch',
-                'launch_sim.launch.py'
-            )
-        ])
+
+    # -------- Lidar Merger --------
+    merger = Node(
+        package="dual_lidar_merger",
+        executable="laser_merger",
+        output="screen"
     )
-    
-    # Laser merger node
-    laser_merger = Node(
-        package='dual_lidar_merger',
-        executable='laser_merger',
-        name='laser_merger',
-        output='screen'
+
+    # -------- Static TF --------
+    static_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=[
+            "0","0","0.175",
+            "0","0","0",
+            "chassis",
+            "laser_merged"
+        ]
     )
-    
-    # RViz with config
-    rviz_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        arguments=['-d', rviz_config_file],
-        output='screen'
+
+    # -------- RViz --------
+    rviz = Node(
+        package="rviz2",
+        executable="rviz2",
+        arguments=[
+            "-d",
+            PathJoinSubstitution([
+                pkg_articubot,
+                "config",
+                "dual_lidar.rviz"
+            ])
+        ],
+        output="screen"
     )
-    
+
     return LaunchDescription([
-        gazebo_launch,
-        laser_merger,
-        rviz_node
+        gazebo,
+        merger,
+        static_tf,
+        rviz
     ])

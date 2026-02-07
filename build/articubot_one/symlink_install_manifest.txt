@@ -24,6 +24,7 @@
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rplidar.md
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+/home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/launch/slam.launch.py
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/empty.world
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/map.world
 /home/atharv/sim_duallidar/install/articubot_one/share/articubot_one/worlds/obstacles.world

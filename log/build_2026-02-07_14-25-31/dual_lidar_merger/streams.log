@@ -1,0 +1,19 @@
+[0.380s] Invoking command in '/home/atharv/sim_duallidar/build/dual_lidar_merger': PYTHONPATH=/home/atharv/sim_duallidar/build/dual_lidar_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/atharv/sim_duallidar/build/dual_lidar_merger/build --no-deps symlink_data --force
+[0.514s] running develop
+[0.592s] running egg_info
+[0.592s] writing dual_lidar_merger.egg-info/PKG-INFO
+[0.592s] writing dependency_links to dual_lidar_merger.egg-info/dependency_links.txt
+[0.592s] writing entry points to dual_lidar_merger.egg-info/entry_points.txt
+[0.592s] writing requirements to dual_lidar_merger.egg-info/requires.txt
+[0.592s] writing top-level names to dual_lidar_merger.egg-info/top_level.txt
+[0.593s] reading manifest file 'dual_lidar_merger.egg-info/SOURCES.txt'
+[0.593s] writing manifest file 'dual_lidar_merger.egg-info/SOURCES.txt'
+[0.594s] running build_ext
+[0.594s] Creating /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages/dual-lidar-merger.egg-link (link to .)
+[0.595s] Installing laser_merger script to /home/atharv/sim_duallidar/install/dual_lidar_merger/lib/dual_lidar_merger
+[0.595s] 
+[0.595s] Installed /home/atharv/sim_duallidar/build/dual_lidar_merger
+[0.595s] running symlink_data
+[0.595s] symbolically linking /home/atharv/sim_duallidar/build/dual_lidar_merger/resource/dual_lidar_merger -> /home/atharv/sim_duallidar/install/dual_lidar_merger/share/ament_index/resource_index/packages
+[0.595s] symbolically linking /home/atharv/sim_duallidar/build/dual_lidar_merger/package.xml -> /home/atharv/sim_duallidar/install/dual_lidar_merger/share/dual_lidar_merger
+[0.610s] Invoked command in '/home/atharv/sim_duallidar/build/dual_lidar_merger' returned '0': PYTHONPATH=/home/atharv/sim_duallidar/build/dual_lidar_merger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atharv/sim_duallidar/install/dual_lidar_merger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/atharv/sim_duallidar/build/dual_lidar_merger/build --no-deps symlink_data --force
